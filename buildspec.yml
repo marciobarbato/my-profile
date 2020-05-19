@@ -1,11 +1,12 @@
 version: 0.2
 phases:
   install:
-    commands:
-      - apt update -y    
+    commands:      
       - apt-get update -y
-      - apt install nodejs -y      
-      - apt install npm -y   
+      - apt-get install -y nodejs-dev
+      - apt-get install -y node-gyp
+      - apt-get install -y libssl1.0-dev
+      - apt-get install -y npm    
   pre_build:
     commands:
       - pwd
