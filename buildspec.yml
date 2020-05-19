@@ -13,7 +13,7 @@ phases:
     commands:
       - echo Entered the build phase...
       - pwd
-      - ng build --prod
+      - npm run ng build --prod
     finally:
       - echo This always runs even if the install command fails
   post_build:
