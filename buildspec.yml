@@ -5,7 +5,7 @@ phases:
       - apt update -y    
       - apt-get update -y
       - apt install nodejs -y      
-      - apt-get install -y npm    
+      - apt install npm -y   
   pre_build:
     commands:
       - pwd
