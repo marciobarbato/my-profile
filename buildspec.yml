@@ -2,8 +2,7 @@ version: 0.2
 phases:
   install:
     commands:      
-      - apt-get update -y
-      - apt-get install -y node
+      - apt-get update -y      
       - apt-get install -y npm    
   pre_build:
     commands:
@@ -25,7 +24,3 @@ artifacts:
   files:
     - dist/my-profile/*
   discard-paths: yes
-
-cache:
-  paths:
-    - '/root/.m2/**/*'
