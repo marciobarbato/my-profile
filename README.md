@@ -1,6 +1,6 @@
 # MyProfile
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22, it was created by github user bbachi and forked into my repo for learning AWS automated release cycle
 
 ## Development server
 
